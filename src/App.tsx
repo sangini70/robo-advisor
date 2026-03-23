@@ -33,7 +33,7 @@ export default function App() {
               <Route path="privacy" element={<Privacy />} />
               <Route path="contact" element={<Contact />} />
             </Route>
-            
+          
             <Route path="/admin/login" element={<AdminLogin />} />
             <Route path="/admin" element={<AdminLayout />}>
               <Route path="posts" element={<AdminPosts />} />
